@@ -1,0 +1,27 @@
+{
+  "name": "pg-collections",
+  "version": "0.1.0",
+  "description": "Use PostgreSQL like a document store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "pgsql",
+    "nosql",
+    "collections",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "Witold Szczerba",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^4.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
